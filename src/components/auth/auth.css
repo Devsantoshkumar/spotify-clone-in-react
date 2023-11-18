@@ -1,0 +1,37 @@
+.authPage{
+    background-color: var(--blackLight);
+    min-height: 100vh;
+}
+.autheader{
+    background-color: var(--blackDark);
+}
+
+.authCard{
+    background-color: var(--blackDark);
+}
+.authLabel{
+    font-size: 14px;
+}
+
+.authButton button{
+   background-color: var(--greenColor);
+   padding: 10px 20px;
+}
+
+.authCheck input{
+    background-color: var(--greenColor);
+}
+
+.authInput input{
+    background-color: var(--blackLight);
+    padding: 12px;
+}
+
+.authInput input::placeholder{
+    color: #eeee;
+    font-size: 14px;
+}
+
+.authInput input:focus{
+    background-color: var(--blackLight);
+}
