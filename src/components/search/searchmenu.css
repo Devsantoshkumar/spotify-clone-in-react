@@ -1,0 +1,5 @@
+
+.searchMenus ul li{
+    background-color: var(--blackHover);
+    font-size: 13px;
+}

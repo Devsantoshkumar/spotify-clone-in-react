@@ -1,0 +1,28 @@
+.itemCard{
+    background-color: var(--blackSade);
+    height: 300px;
+    transition: background 0.3s ease-in-out;
+}
+
+.itemCard img{
+    height: 180px;
+}
+
+.itemCard h6{
+    font-weight: 600;
+}
+
+.itemCard p{
+    font-size: 14px;
+    color: var(--textLight);
+}
+
+.itemCard:hover{
+    background-color: var(--blackHover);
+    transition: backgrund 0.3s ease-in-out;
+}
+
+.showAll{
+    font-size: 14px;
+    color: var(--textLight);
+}

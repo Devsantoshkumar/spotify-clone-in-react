@@ -1,5 +1,12 @@
 :root{
   --blackDark: #000000;
   --blackLight: #171717;
+  --blackHover: #282828;
+  --blackSade: #242424;
   --greenColor: #1FDF64;
+  --textLight: #b6b6b6;
+}
+
+body{
+  background-color: var(--blackDark);
 }

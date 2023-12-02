@@ -1,0 +1,8 @@
+.menu{
+    background-color: var(--blackLight);
+    height: 100px;
+}
+
+.menu a i{
+    font-size: 19px;
+}

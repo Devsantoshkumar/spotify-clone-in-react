@@ -1,0 +1,47 @@
+.sidebarDefault{
+    background-color: var(--blackLight);
+    height: calc(100vh - 204px);
+    overflow-y: auto;
+}
+
+.sidebarDefault::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+  
+  /* Track */
+.sidebarDefault::-webkit-scrollbar-track {
+    background: var(--blackLight);
+}
+  
+  /* Handle */
+.sidebarDefault::-webkit-scrollbar-thumb {
+    background: #888;
+    display: none;
+  }
+
+  .sidebarDefault:hover.sidebarDefault::-webkit-scrollbar-thumb{
+    display: block;
+  }
+  
+  /* Handle on hover */
+.sidebarDefault::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.createPlaylist{
+    background-color: var(--blackHover);
+}
+
+.createPlaylist h6{
+    font-size: 15px;
+}
+
+.createPlaylist p{
+    font-size: 14px;
+}
+.createPlaylist a{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}

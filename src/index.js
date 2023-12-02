@@ -5,12 +5,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import HeaderContextProvider from './context/HeaderContextProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <HeaderContextProvider>
+       <App />
+      </HeaderContextProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
